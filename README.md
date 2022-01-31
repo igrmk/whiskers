@@ -12,8 +12,8 @@ Installation
 
 ### Linux
 
-1. Download this [icon](https://github.com/igrmk/whiskers/raw/main/whiskers_256x256.png) to your preferred icons path .e.g `~/.icons` or `~/.local/share/icons`.
-2. Edit your `~/.local/share/applications/kitty.desktop` file and set the `Icon` parameter to the **full** path to the `whiskers_256x256.png` icon.
+1. Download [`whiskers_256x256.png`](https://github.com/igrmk/whiskers/raw/main/whiskers_256x256.png) to your preferred icons path .e.g `~/.icons` or `~/.local/share/icons`.
+2. Edit your `~/.local/share/applications/kitty.desktop` file and set the `Icon` parameter to the **full absolute** path to the `whiskers_256x256.png` icon e.g. `/home/igrmk/.icons/whiskers_256x256.png`.
 
 ### macOS
 

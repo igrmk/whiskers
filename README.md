@@ -28,3 +28,4 @@ Other alternatives
 
 * https://github.com/k0nserv/kitty-icon
 * https://github.com/DinkDonk/kitty-icon
+* https://github.com/hristost/kitty-alternative-icon

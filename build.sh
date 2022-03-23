@@ -14,7 +14,9 @@ single 256
 single 512
 single 1024
 
-iconutil --convert icns --output whiskers.icns whiskers.iconset
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    iconutil --convert icns --output whiskers.icns whiskers.iconset
+fi
 
 mv whiskers.iconset/icon_*.png .
 rm -r whiskers.iconset

@@ -10,6 +10,8 @@ Works best if little flat icons and whiskers on kittens are a few of your favori
 Installation
 ------------
 
+Run `make -j all` to build the image files. If `pngcrush` is installed, `png` images will be optimized using the default optimizer.
+
 ### Linux
 
 1. Download [`whiskers_256x256.png`](https://github.com/igrmk/whiskers/raw/main/whiskers_256x256.png) to your preferred icons path .e.g `~/.icons` or `~/.local/share/icons`.
@@ -17,7 +19,12 @@ Installation
 
 ### macOS
 
-PRs are welcome.
+[Download](https://github.com/igrmk/whiskers/archive/refs/heads/main.zip) or
+clone this repo, `cd` into it, and run
+
+    make -j install-osx
+
+This will build an `icns` file and install it to `/Applications/kitty.app`.
 
 ### Windows
 

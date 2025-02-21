@@ -27,6 +27,7 @@ You need mac to build icons. Install inkscape and exiftool. Then run `build.sh` 
 Other alternatives
 ------------------
 
+* https://github.com/igrmk/twiskers
 * https://github.com/k0nserv/kitty-icon
 * https://github.com/DinkDonk/kitty-icon
 * https://github.com/hristost/kitty-alternative-icon

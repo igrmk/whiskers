@@ -1,7 +1,7 @@
 Whiskers
 ========
 
-<img src="whiskers.svg" width="180">
+<img src="whiskers.svg" width="220">
 
 An alternative application icon for [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 Works best if little flat icons and whiskers on kittens are a few of your favorite things.
